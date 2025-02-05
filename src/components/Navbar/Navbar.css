@@ -1,0 +1,25 @@
+#navbar {
+  z-index: 1000;
+  background-color: #000;
+}
+#nav-title {
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.navbar {
+  background-color: #000;
+}
+.navbar-nav {
+  gap: 20px;
+}
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  padding: 10px;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffcb42 !important; /* Change text color on hover */
+  transform: scale(1.1); /* Slightly enlarge */
+}

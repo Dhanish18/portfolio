@@ -1,0 +1,38 @@
+#about h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffcf17;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.chatbox {
+  border: 2px solid rgb(255, 255, 255);
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 650px;
+}
+.qn {
+  border-radius: 10px 10px 10px 0px;
+  align-self: flex-start;
+  background-color: #262626;
+  color: #fff;
+  border: #262626;
+}
+.ans {
+  align-self: flex-end;
+  border-radius: 10px 10px 0px 10px;
+  color: #262626;
+  font-weight: bold;
+  background-color: #ffcf17;
+  border: #ffcf17;
+}
+
+@media (max-width: 767px) {
+  .chatbox {
+    width: unset;
+  }
+}

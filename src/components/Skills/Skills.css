@@ -1,0 +1,31 @@
+#skills {
+  padding-bottom: 40px;
+}
+#skills h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  color: #ffcf17;
+}
+.skill-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.icon-row {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.skill-icon {
+  text-align: center;
+}
+
+.skill-icon i {
+  font-size: 50px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.skill-icon p {
+  color: #fff;
+}

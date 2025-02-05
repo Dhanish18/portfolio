@@ -1,0 +1,28 @@
+#main {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+#main h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+#main h3 {
+  margin-bottom: 20px;
+}
+#main p {
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+#clr {
+  color: #ffcf17;
+}
+
+:target {
+  scroll-margin-top: 70px;
+}
+
+.controlwidth {
+  max-width: 672px;
+  margin: 0 auto;
+}

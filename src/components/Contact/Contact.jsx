@@ -24,8 +24,18 @@ const Contact = () => {
           free to reach out
         </p>
         <div className="userform">
-          <input type="text" placeholder="type here" className="inputbox" />
-          <button className="sendbtn">send message</button>
+          <form
+            action="https://formsubmit.co/dhanishmarudhu2@gmail.com"
+            method="POST"
+          >
+            <input
+              type="text"
+              name="textarea"
+              placeholder="type here"
+              className="inputbox"
+            />
+            <button className="sendbtn">send message</button>
+          </form>
         </div>
 
         <div className="socialmedia-icons">

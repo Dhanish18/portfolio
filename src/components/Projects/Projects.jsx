@@ -8,14 +8,20 @@ const Projects = () => {
       <div className="projects-container row p-2 p-lg-0">
         <div className="project-card col-12 col-lg-4 mb-4 mb-lg-0 ">
           <div className="project-image">
-            <img src="" alt="img" />
+            <img src="./images/project1.png" alt="img" />
           </div>
           <h4 className="project-title">Ecommerce site</h4>
           <button className="project-github">
-            github{" "}
-            <span>
-              <i class="fa-brands fa-github"></i>
-            </span>
+            <a
+              href="https://github.com/Dhanish18/Ecommerce-site"
+              target="_blank"
+              rel="noreferrer"
+            >
+              github
+              <span>
+                <i class="fa-brands fa-github"></i>
+              </span>
+            </a>
           </button>
         </div>
       </div>
